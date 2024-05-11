@@ -41,7 +41,9 @@ body {
                 width: 100%;
                 }
 
-                border-bottom: 4px solid var(--botao-ativo); border-left: 2px solid var(--botao-ativo); border-right: 2px solid var(--botao-ativo);
+                border-bottom: 4px solid var(--botao-ativo); 
+                border-left: 2px solid var(--botao-ativo); 
+                border-right: 2px solid var(--botao-ativo);
                 border-top: none;
 
                 .botoes { display: block;
@@ -57,3 +59,8 @@ body {
                         }}
                 .botao:last-child { border-radius: 0 40px 0 0;
                 }
+                
+                .ativo{
+                    background-color: var(--botao-ativo);
+                    border-bottom: 4px solid var(--verde);
+                    }
